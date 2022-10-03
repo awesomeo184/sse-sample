@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+    <appender name="console-access-appender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>"--------------------------------------%n###### HTTP Request ###### %n%fullRequest###### HTTP Response ###### %n%fullResponse"</pattern>
+        </encoder>
+    </appender>
+</included>
